@@ -1,8 +1,10 @@
 # -study--async-callback-with-Promise-
 
+## Promise을 이용하여 비동기 callback이 완료된후 공통 처리
 
 
-Promise 을 이용하여 비동기 callback이 완료된후 공통 처리
+
+```javascript
 clickInit((resolve, checkedInput) => {
     //ajax나 기타 비동기처리
     setTimeout(function () {
@@ -29,3 +31,4 @@ function clickInit(callback) {
         });
     });
 }
+```
