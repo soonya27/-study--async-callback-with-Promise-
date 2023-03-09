@@ -1,4 +1,4 @@
-# -study--async-callback-with-Promise-
+# async-callback-with-Promise-
 
 ## Promise을 이용하여 비동기 callback이 완료된후 공통 처리
 
