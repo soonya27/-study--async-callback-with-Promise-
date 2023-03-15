@@ -5,7 +5,7 @@
 
 
 ```javascript
-clickInit((resolve, checkedInput) => {
+clickInit((resolve) => {
     //ajax나 기타 비동기처리
     setTimeout(function () {
         console.log('비동기처리');
