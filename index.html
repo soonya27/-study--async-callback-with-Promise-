@@ -11,7 +11,7 @@
 <body>
     <button id="btnClick">비동기callback을 매개변수로 받는 함수</button>
     <script>
-        clickInit((resolve, checkedInput) => {
+        clickInit((resolve) => {
             //ajax나 기타 비동기처리
             setTimeout(function () {
                 console.log('비동기처리');
